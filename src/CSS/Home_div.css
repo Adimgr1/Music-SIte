@@ -1,0 +1,440 @@
+.Home_div {
+  width: 70%;
+  height: 43%;
+  display: flex;
+  margin-left: 24%;
+  margin-top: 20px;
+  flex-direction: row;
+  position: relative;
+}
+.chips {
+  padding: 5px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: white;
+}
+.chips::before {
+  filter: brightness(0.7);
+}
+.chips img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  filter: brightness(0.6);
+}
+.chips1 {
+  position: absolute;
+  width: 370px;
+  height: 290px;
+  left: 150px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+.chips2 {
+  position: absolute;
+  width: 370px;
+  height: 340px;
+  left: 290px;
+  top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chips3 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 460px;
+  z-index: 2;
+  display: flex;
+
+
+  /* align-items: center;
+  justify-content: center; */
+}
+.chips4 {
+  position: absolute;
+  width: 370px;
+  height: 340px;
+  left: 660px;
+  top: 30px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chips5 {
+  position: absolute;
+  width: 370px;
+  height: 290px;
+  left: 810px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.song-detail {
+  bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 6;
+  left: 40px;
+  filter: contrast(200%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.song-detail h3 {
+  font-size: 30px;
+}
+.chips3:hover .song-detail {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.play-div{
+     z-index: 6;
+     opacity:0;
+     transition :opacity 0.5s ease-in-out;
+
+}
+.chips3:hover .play-div{
+     opacity:1;
+     transition: opacity 0.5s ease-in-out;
+
+}
+.featured-hover:hover{
+  z-index: 4;
+  width: 400px;
+  height: 400px;
+  top:0px;
+}
+.featured-hover:hover ~ .chips3{
+  height: 350px;
+  width: 300px;
+  top: 25px
+
+}
+.featured-hover2:hover{
+  z-index: 4;
+  width: 400px;
+  height: 400px;
+  top:0px;
+}
+
+.Home_div:has(.featured-hover2:hover) .chips3{
+  height: 350px;
+  width: 350px;
+  top: 25px
+
+}
+.featured-hover3:hover{
+  z-index: 4;
+  width: 400px;
+  height: 400px;
+  top:0px;
+
+}
+.Home_div:has(.featured-hover3:hover) .chips3{
+  height: 350px;
+  width: 350px;
+  top: 25px;
+  left: 500px
+
+}
+.song-detail2{
+  bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 6;
+  left: 40px;
+  filter: contrast(200%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+
+}
+.chips1:hover .song-detail2{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.song-detail2 h3 {
+  font-size: 30px;
+}
+.song-detail3 {
+  bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 1;
+  left: 40px;
+  filter: contrast(200%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+
+}
+.song-detail3 h3 {
+  font-size: 30px;
+}
+.chips2:hover .song-detail3{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.song-detail4 {
+  bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 6;
+  left: 40px;
+  filter: contrast(200%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+
+}
+.song-detail4 h3 {
+  font-size: 30px;
+}
+.chips4:hover .song-detail4{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.song-detail5 {
+  bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 5;
+  left: 40px;
+  filter: contrast(200%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+
+}
+.song-detail5 h3 {
+  font-size: 30px;
+}
+.chips5:hover .song-detail5{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.play-div1{
+  z-index: 1;
+  opacity:0;
+  
+
+}
+.chips1:hover .play-div1{
+  opacity:1;
+  transition: opacity 0.5s ease-in-out;
+
+}
+
+.play-div2{
+  z-index: 1;
+  opacity:0;
+  
+
+}
+.chips2:hover .play-div2{
+  opacity:1;
+  transition: opacity 0.5s ease-in-out;
+
+}
+.play-div3{
+  z-index: 1;
+  opacity:0;
+  
+
+}
+.chips4:hover .play-div3{
+  opacity:1;
+  transition: opacity 0.5s ease-in-out;
+
+}
+.play-div4{
+  z-index: 6;
+  opacity:0;
+  
+
+}
+.chips5:hover .play-div4{
+  opacity:1;
+  transition: opacity 0.5s ease-in-out;
+
+}
+.chips1:hover{
+  z-index: 6;
+}
+.chips2:hover{
+  z-index: 6;
+}
+.chips3:hover{
+  z-index: 6;
+} 
+.chips4:hover{
+  z-index: 6;
+} 
+.chips5:hover{
+  z-index: 6;
+}
+
+@media (max-width: 1440px) {
+  .Home_div {
+    width: 70%;
+    height: 43%;
+    display: flex;
+    margin-left: 24%;
+    margin-top: 20px;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips {
+    padding: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+  }
+  .chips1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 200px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 325px;
+    z-index: 2;
+    display: flex;
+  
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .chips4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 500px;
+    top: 60px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 650px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  
+}
+@media (max-width:1024px) {
+
+  .Home_div {
+    width: 72%;
+    height: 43%;
+    display: flex;
+    margin-left: 27%;
+    margin-top: 20px;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips {
+    padding: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+  }
+  .chips1 {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 55px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips2 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 145px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips3 {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    left: 245px;
+    z-index: 2;
+    display: flex;
+  
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .chips4 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 395px;
+    top: 60px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chips5 {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 525px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+

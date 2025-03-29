@@ -1,0 +1,32 @@
+[
+     {
+          "dp":"./assets/DPAVATAR/giraffe.png",
+          "color": "linear-gradient(135deg, #007BFF, #A000C8)"
+     },
+     {
+          "dp":"./assets/DPAVATAR/cool.png",
+          "color": "linear-gradient(135deg, #007BFF, #A000C8)"
+
+     },
+     {
+          "dp":"./assets/DPAVATAR/dog.png",
+          "color": "linear-gradient(135deg, #007BFF, #A000C8)"
+     },
+     {
+          "dp":"./assets/DPAVATAR/handsfree.png",
+          "color":"linear-gradient(135deg, #007BFF, #A000C8)"
+     },
+     {
+          "dp":"./assets/DPAVATAR/listen1.png",
+          "color":"linear-gradient(135deg, #007BFF, #A000C8)"
+     },
+     {
+          "dp":"./assets/DPAVATAR/listen.png",
+          "color":"linear-gradient(135deg, #007BFF, #A000C8)"
+
+     },
+     {
+          "dp":"./assets/DPAVATAR/sea-lion.png",
+          "color":"linear-gradient(135deg, #007BFF, #A000C8)"
+     }
+]

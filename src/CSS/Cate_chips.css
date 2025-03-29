@@ -1,0 +1,39 @@
+.cat_chips{
+     width:100px;
+     height: 40px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 700;
+     border:2px solid white;
+     color: white;
+}
+.cat_chips:hover{
+     background-color: white;
+     color:black
+}
+.cat_chips_active{
+     background-color: #00907f;
+     border-color: #00907f ;
+}
+
+@media (max-width: 1024px) {
+     .cat_chips{
+          width:65px;
+          height: 30px;
+          border-radius: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-weight: 600;
+          border:2px solid white;
+          overflow: hidden;
+          color: white;
+          font-size: 10px;
+     }
+
+     
+}

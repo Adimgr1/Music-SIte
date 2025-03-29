@@ -1,0 +1,267 @@
+{
+     "Relaxing": [
+    {
+      "Song_Name": "Dhaga",
+      "Artist": "Nilotpal Bora and Hussain Haidry",
+      "Album": "Aspirants: Season 1 (Music From the TVF Original Series)",
+      "Genre": "Relaxing",
+      "Music_Link": "assets/Songs/Relax_Songs/Dhaaga - Official Music Video  TVF's Aspirants  Nilotpal Bora  Hussain Haidry.mp3",
+      "Img": "https://c.saavncdn.com/592/Aspirants-Season-1-Music-From-the-TVF-Original-Series--English-2021-20210505184143-500x500.jpg"
+
+    },
+    {
+      "Song_Name": "Kiska Rasta Dekhe",
+      "Artist": "Kishore Kumar",
+      "Album": "Joshila",
+      "Genre": "Relaxing",
+      "Music_Link": "assets/Songs/Relax_Songs/Kiska Rasta Dekhe - Kishore Kumar (Reverb).mp3",
+      "Img": "https://images.genius.com/b695c017609725afe9beb038cbc5f4b0.1000x1000x1.png"
+    },
+    {
+      "Song_Name": "Kun Faya Kun",
+      "Artist": "A.R. Rahman, Javed Ali, Mohit Chauhan, Nizami Bandhu",
+      "Album": "Rockstar",
+      "Genre": "Sufi",
+      "Music_Link": "assets/Songs/Relax_Songs/Kun Faya Kun.mp3",
+      "Img": "https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b"
+    },
+    {
+      "Song_Name": "Mat Kar Maya Ko Ahankar",
+      "Artist": "Achint Thakkar",
+      "Album": "Scam 1992: The Harshad Mehta Story",
+      "Genre": "Instrumental",
+      "Music_Link": "assets/Songs/Relax_Songs/Mat kar maya ko Ahankar - (full song)  Scam 1992-The harshad mehta story end emotional scene song.mp3",
+      "Img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/08/scam-1992-the-harshad-mehta-story-2020.jpg"
+    },
+    {
+      "Song_Name": "O Rangrez",
+      "Artist": "Shreya Ghoshal, Javed Bashir",
+      "Album": "Bhaag Milkha Bhaag",
+      "Genre": "Classical",
+      "Music_Link": "assets/Songs/Relax_Songs/O Rangrez - Lyrcial Video  Bhaag Milkha Bhaag  Farhan, Sonam  Shreya Ghoshal, Javed Bashir.mp3",
+      "Img": "https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/74637391.jpg"
+    }
+  ],
+
+  "Party_Songs": [
+    {
+      "Song_Name": "Gallan Goodiyaan",
+      "Artist": "Shankar Mahadevan, Yashita Sharma, Manish Kumar Tipu",
+      "Album": "Dil Dhadakne Do",
+      "Genre": "Party",
+      "Music_Link": "assets/Songs/Party_Songs/gallan.mp3",
+      "Img": "https://wp.missmalini.com/wp-content/uploads/2015/03/CCOVLsFUIAAigIh.jpg"
+    },
+    {
+      "Song_Name": "Hookah Bar",
+      "Artist": "Himesh Reshammiya, Vineet Singh, Aman Trikha",
+      "Album": "Khiladi 786",
+      "Genre": "Party",
+      "Music_Link": "assets/Songs/Party_Songs/Full Video_ Hookah Bar  Khiladi 786  Akshay Kumar & Asin  Himesh Reshammiya.mp3",
+      "Img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/khiladi-786-et00008052-07-12-2020-07-34-40.jpg"
+    },
+    {
+      "Song_Name": "Soni De Nakhre",
+      "Artist": "Labh Janjua, Sneha Pant, Wajid Ali",
+      "Album": "Partner",
+      "Genre": "Party",
+      "Music_Link": "assets/Songs/Party_Songs/Full Video_ Soni De Nakhre  Partner  Govinda, Salman Khan, Katrina Kaif  Sajid - Wajid.mp3",
+      "Img": "https://m.media-amazon.com/images/M/MV5BNDYzNjQ2MzYyNF5BMl5BanBnXkFtZTgwOTcxNzkwMzE@._V1_QL75_UX150_.jpg"
+    },
+    {
+      "Song_Name": "Kala Chashma",
+      "Artist": "Amar Arshi, Badshah, Neha Kakkar, Indeep Bakshi",
+      "Album": "Baar Baar Dekho",
+      "Genre": "Party",
+      "Music_Link": "assets/Songs/Party_Songs/Kala Chashma  Baar Baar Dekho  Sidharth M Katrina K  Prem, Hardeep, Badshah, Kam, Neha, Indeep.mp3",
+      "Img": "https://upload.wikimedia.org/wikipedia/en/a/aa/Katrina_Kaif%27s_Baar_Baar_Dekho.jpg"
+    },
+    {
+      "Song_Name": "Zohra Jabeen",
+      "Artist": "Nakash Aziz, Dev Negi, Mellow D",
+      "Album": "Sikandar",
+      "Genre": "Party",
+      "Music_Link": "assets/Songs/Party_Songs/Zohra Jabeen  Sikandar  Salman Khan, Rashmika PritamNakash, Dev, Mellow D Sajid NAR Murugadoss.mp3",
+      "Img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202502/salman-khan--sikandar-180909414-3x4.jpg?VersionId=so8mjqJCSGmXjjTuuXQaYbWozPPyPAtl"
+    }
+  ],
+
+  "Romantic_Songs": [
+    {
+      "Song_Name": "Ab Tere Dil Mein",
+      "Artist": "Alka Yagnik, Kumar Sanu",
+      "Album": "Aarzoo",
+      "Genre": "Romantic",
+      "Music_Link": "assets/Songs/Romance/abtere.mp3",
+      "Img": "https://media5.bollywoodhungama.in/wp-content/uploads/2016/03/Aarzoo-306x393.jpg"
+
+    },
+    {
+      "Song_Name": "Raanjhan",
+      "Artist": "Parampara Tandon",
+      "Album": "Do Patti",
+      "Genre": "Romantic",
+      "Music_Link": "assets/Songs/Romance/Do Patti_ Raanjhan (Full Video) Kriti Sanon, Shaheer Sheikh  Parampara Tandon  Sachet-Parampara.mp3",
+      "Img": "https://i.scdn.co/image/ab67616d0000b273773c5f60bcb309ef8802e4ef"
+    },
+    {
+      "Song_Name": "Sahiba",
+      "Artist": "Jasleen Royal, Stebin Ben, Priya Saraiya",
+      "Album": "Sahiba - Single",
+      "Genre": "Romantic",
+      "Music_Link": "assets/Songs/Romance/Sahiba (Music Video) Jasleen Royal Vijay Deverakonda Radhika Madan Stebin PriyaAditya Sudhanshu.mp3",
+      "Img": "https://c.saavncdn.com/485/Sahiba-Hindi-2024-20241112165036-150x150.jpg"
+    },
+    {
+      "Song_Name": "Sang Rahiyo",
+      "Artist": "Jasleen Royal, Ujjwal Kashyap",
+      "Album": "Sang Rahiyo - Single",
+      "Genre": "Romantic",
+      "Music_Link": "assets/Songs/Romance/Sang Rahiyo (Official Video)  Jasleen Royal ft. Ranveer Allahbadia  Ujjwal Kashyap,Neeraj Rajawat.mp3",
+      "Img": "https://a10.gaanacdn.com/gn_img/albums/BZgWoQOK2d/ZgWoqDP7K2/size_m_1602082702.jpg"
+    },
+    {
+      "Song_Name": "Tu Hain Toh",
+      "Artist": "Hunny, Bunny, Sagar",
+      "Album": "Mr. & Mrs. Mahi",
+      "Genre": "Romantic",
+      "Music_Link": "assets/Songs/Romance/Tu Hain Toh  Mr. & Mrs. Mahi  Rajkummar Rao, Janhvi Kapoor  Hunny, Bunny, Sagar  Team Jaani.mp3",
+      "Img": "https://upload.wikimedia.org/wikipedia/en/d/d9/Mr._%26_Mrs._Mahi_poster.jpg"
+    }
+  ],
+
+
+  "Sad_Songs": [
+    {
+      "Song_Name": "Hamari Adhuri Kahani",
+      "Artist": "Arijit Singh",
+      "Album": "Hamari Adhuri Kahani",
+      "Genre": "Sad",
+      "Music_Link": "assets/Songs/Sad_Songs/hamari.mp3",
+      "Img": "https://m.media-amazon.com/images/I/51ly5YJ1t7L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Song_Name": "Kabira",
+      "Artist": "Rekha Bhardwaj, Tochi Raina",
+      "Album": "Yeh Jawaani Hai Deewani",
+      "Genre": "Sad",
+      "Music_Link": "assets/Songs/Sad_Songs/Kabira Full Song Yeh Jawaani Hai Deewani  Pritam  Ranbir Kapoor, Deepika Padukone.mp3",
+      "Img": "https://m.media-amazon.com/images/I/81JZRejRNWL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Song_Name": "Kyun Main Jaagoon",
+      "Artist": "Shafqat Amanat Ali",
+      "Album": "Patiala House",
+      "Genre": "Sad",
+      "Music_Link": "assets/Songs/Sad_Songs/Kyun Main Jaagoon Full Song Patiala House  Akshay Kumar.mp3",
+      "Img": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8494967_p_v8_ad.jpg"
+    },
+    {
+      "Song_Name": "O Bedardeya",
+      "Artist": "Arijit Singh",
+      "Album": "Tu Jhoothi Main Makkaar",
+      "Genre": "Sad",
+      "Music_Link": "assets/Songs/Sad_Songs/O Bedardeya (Film Version) Tu Jhoothi Main Makkaar  Ranbir, Shraddha  Pritam, Arijit S, Amitabh B.mp3",
+      "Img":"https://hindi.filmibeat.com/fanimg/movie/556/tu-jhoothi-main-makkaar-photos-images-2023012357904600.jpg"
+    },
+    {
+      "Song_Name": "Tum Hi Aana",
+      "Artist": "Jubin Nautiyal",
+      "Album": "Marjaavaan",
+      "Genre": "Sad",
+      "Music_Link": "assets/Songs/Sad_Songs/Tum Hi Aana Full Video  Marjaavaan  Riteish D, Sidharth M, Tara S  Jubin N  Payal Dev Kunaal V.mp3",
+      "Img": "https://upload.wikimedia.org/wikipedia/en/c/c2/Marjaavaan_poster.jpg"
+      
+    }
+  ],
+
+  "Hip_Hop_Songs": [
+    {
+      "Song_Name": "MIRCHI",
+      "Artist": "DIVINE, Stylo G, MC Altaf, Phenom",
+      "Album": "Punya Paap",
+      "Genre": "Hip-Hop",
+      "Music_Link": "assets/Songs/Hip-Hop/DIVINE - MIRCHI Feat. Stylo G, MC Altaf & Phenom  Official Music Video.mp3",
+      "Img": "https://i.ytimg.com/vi/w5Aioq5VYF0/maxresdefault.jpg"
+    },
+    {
+      "Song_Name": "Run It Up",
+      "Artist": "Hanumankind",
+      "Album": "Run It Up - Single",
+      "Genre": "Hip-Hop",
+      "Music_Link": "assets/Songs/Hip-Hop/Hanumankind - Run It Up ( Prod. By Kalmi )  (Official Music Video).mp3",
+      "Img": "https://i.ytimg.com/vi/0r5Qu4KbESM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBLIgN05YWkxrzGsnzeSmh4I5zqGg"
+    },
+    {
+      "Song_Name": "like JENNIE",
+      "Artist": "JENNIE",
+      "Album": "like JENNIE - Single",
+      "Genre": "Hip-Hop",
+      "Music_Link": "assets/Songs/Hip-Hop/JENNIE - like JENNIE (Official Video).mp3",
+      "Img": "https://thebiaslist.com/wp-content/uploads/2025/03/jennie-blackpink-like-jennie.jpg"
+    },
+    {
+      "Song_Name": "I Guess",
+      "Artist": "KR$NA",
+      "Album": "Still Here",
+      "Genre": "Hip-Hop",
+      "Music_Link": "assets/Songs/Hip-Hop/KR$NA - I Guess  Official Music Video.mp3",
+      "Img": "https://grazia.wwmindia.com/content/2021/apr/krsna1617891036.jpg"
+    },
+    {
+      "Song_Name": "MILLIONAIRE SONG",
+      "Artist": "Yo Yo Honey Singh, GLORY",
+      "Album": "MILLIONAIRE SONG - Single",
+      "Genre": "Hip-Hop",
+      "Music_Link": "assets/Songs/Hip-Hop/MILLIONAIRE SONG (Full Video)_ @YoYoHoneySingh   GLORY  BHUSHAN KUMAR.mp3",
+      "Img": "https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+    }
+  ],
+
+
+  "Energetic_Songs": [
+     {
+       "Song_Name": "Aam Jahe Munde (Slowed & Reverb)",
+       "Artist": "Parmish Verma",
+       "Album": "Single",
+       "Genre": "Energetic",
+       "Music_Link": "assets/Songs/Energetic/Aam Jahe Munde (Slowed  Reverb) Permish Verma.mp3",
+       "Img": "https://c.saavncdn.com/135/Aam-Jahe-Munde-Punjabi-2020-20240424043015-500x500.jpg"
+     },
+     {
+       "Song_Name": "Mockingbird",
+       "Artist": "Eminem",
+       "Album": "Encore",
+       "Genre": "Energetic",
+       "Music_Link": "assets/Songs/Energetic/Eminem - Mockingbird [Official Music Video].mp3",
+       "Img": "https://i.scdn.co/image/ab67616d0000b273726d48d93d02e1271774f023"
+     },
+     {
+       "Song_Name": "Gang Wale Munde",
+       "Artist": "Paradox",
+       "Album": "MTV Hustle 2.0",
+       "Genre": "Energetic",
+       "Music_Link": "assets/Songs/Energetic/Gang wale munde  Paradox  Hustle 2.0.mp3",
+       "Img": "https://i.scdn.co/image/ab67616d0000b273f4401d4b855aee593cdb65ec"
+     },
+     {
+       "Song_Name": "Paisa Hai Toh",
+       "Artist": "Sachin-Jigar, Vishal Dadlani, MellowD",
+       "Album": "Farzi",
+       "Genre": "Energetic",
+       "Music_Link": "assets/Songs/Energetic/Paisa Hai Toh - Farzi Sachin-Jigar, Vishal Dadlani, MellowD Shahid Kapoor.mp3",
+       "Img": "https://pendujatt.com.se/uploads/album/farzi-original-series-soundtrack-sachin-jigar.webp"
+     },
+     {
+       "Song_Name": "Ud-daa Punjab",
+       "Artist": "Vishal Dadlani, Amit Trivedi",
+       "Album": "Udta Punjab",
+       "Genre": "Energetic",
+       "Music_Link": "assets/Songs/Energetic/Ud-daa Punjab - Full Video  Udta Punjab  Vishal Dadlani & Amit Trivedi  Shahid Kapoor.mp3",
+       "Img": "https://im.rediff.com/movies/2016/may/27udta-punjab.jpg?w=450&h=450"
+     }
+   ]
+
+
+
+}
