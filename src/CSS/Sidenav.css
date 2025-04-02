@@ -49,6 +49,10 @@
 .side-nav-menu :hover{
      color:green
 }
+.check-margin{
+     margin-top: 25%;
+}
+
 
 @media (max-width:1024px) {
      .menu-content{

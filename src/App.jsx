@@ -1,8 +1,7 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import Home from './Components/Home'
 import { CurrentPlayingProvider } from './Context/CurrentPlaying'
 import { BrowserRouter } from 'react-router-dom'
-import Categories from './Pages/Categories'
 import { Routes, Route } from 'react-router-dom'
 import { SelectedPage_provider } from './Context/SelectedPage'
 import { song_chips_current } from './Context/Song_chips_current'
@@ -25,7 +24,6 @@ function App() {
     <CurrentPlayingProvider>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path="/categories" element={<Categories />} />
       <Route path="/sign-in" element={<SignIn />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/users" element={<Users />} />      

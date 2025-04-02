@@ -1,11 +1,13 @@
+import { CurrentPlaying } from "../Context/CurrentPlaying";
+import { song_chips_current } from "../Context/Song_chips_current";
 import "../CSS/Genre.css"
 import songs from "../data.json"
-import { useState } from "react";
-export default function Genrecard(prop) {
-     
+import { useContext } from "react";
+export default function Songcard(prop) {
+     let {setCurrentPlaying}= useContext(CurrentPlaying);
      let handleClick=(genrename)=>{
           let a= songs[genrename]
-          prop.setSongList(a)
+          setCurrentPlaying(prop.item)
      }
      return(
           <>

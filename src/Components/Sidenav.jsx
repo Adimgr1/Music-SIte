@@ -6,9 +6,14 @@ import { BiSolidPlaylist } from "react-icons/bi";
 import { Navigate, useNavigate } from "react-router-dom";
 import Title from "../assets/Title.png";
 import { SelectedPage } from "../Context/SelectedPage";
-import { useContext } from "react";
+import { useContext, useState } from "react";
+import { Logged_context } from "../Context/Logged";
+import Profile from "./Profile";
+
 
 export default function Sidenav() {
+  let {logged}= useContext(Logged_context)
+  let [showProfile, setShowProfile]= useState(false)
   let { setSelectedPage, selectedPage } = useContext(SelectedPage);
   let navigate = useNavigate();
   let handleCategories = () => {
@@ -18,10 +23,19 @@ export default function Sidenav() {
   let handleHome = () => {
     setSelectedPage("Home");
     navigate("/");
+    setShowProfile(false)
   };
   let handleProfile=()=>{
-    navigate("/sign-in");
+    if(!logged){
+      navigate("/sign-in");
+    }else{
+      setSelectedPage("Profile")
+      setShowProfile(!showProfile)
+    }
+  }
 
+  let handlePlaylist=()=>{
+    
   }
   return (
     <div className="sidenav">
@@ -38,22 +52,21 @@ export default function Sidenav() {
           <p onClick={handleHome}>Home</p>
         </div>
         <div className={
-            selectedPage == "Categories"
+            selectedPage == "Profile"
               ? "menu-content menu-content-selected"
               : "menu-content"
           }>
-          <PiCirclesFour></PiCirclesFour>
-          <p onClick={handleCategories}>Categories</p>
-        </div>
-        <div className="menu-content">
           <IoPeopleOutline></IoPeopleOutline>
           <p onClick={handleProfile}>Profile</p>
         </div>
-        <div className="menu-content">
+        
+
+        <div className={showProfile?"menu-content check-margin":"menu-content"}>
           <BiSolidPlaylist></BiSolidPlaylist>
           <p>Playlist</p>
         </div>
       </div>
+      {showProfile ? <Profile selectedPage={selectedPage}/> : null}
     </div>
   );
 }

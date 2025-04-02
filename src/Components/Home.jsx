@@ -12,7 +12,6 @@ import { Allsongs_provider } from "../Context/Allsongs";
 import { Song_chips_current_provider } from "../Context/Song_chips_current";
 import data from "../data.json";
 import { BrowserRouter } from "react-router-dom";
-import Categories from "../Pages/Categories";
 import { Routes, Route } from "react-router-dom";
 import { selecteduser } from "../Context/Selecteduser";
 import dp from "../Profile.json";
@@ -21,7 +20,6 @@ import { Logged_context } from "../Context/Logged";
 export default function Home() {
   let { logged } = useContext(Logged_context);
   let { currentPlaying } = useContext(CurrentPlaying);
-  let { selected } = useContext(selecteduser);
   let search;
 
   let handleChange = (e) => {
